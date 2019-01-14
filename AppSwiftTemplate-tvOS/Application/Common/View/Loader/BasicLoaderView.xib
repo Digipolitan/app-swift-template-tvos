@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="LoaderView" customModule="AppSwiftTemplate_tvOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8nz-mh-vOd">
+                    <rect key="frame" x="904" y="470" width="113" height="140"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="pHc-ha-Yhm">
+                            <rect key="frame" x="24" y="10" width="64" height="64"/>
+                        </activityIndicatorView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ7-ox-Xj1">
+                            <rect key="frame" x="10" y="84" width="93" height="46"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.82745098039215681" green="0.82745098039215681" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="pHc-ha-Yhm" firstAttribute="top" secondItem="8nz-mh-vOd" secondAttribute="top" constant="10" id="6da-ZL-yjO"/>
+                        <constraint firstAttribute="trailing" secondItem="xZ7-ox-Xj1" secondAttribute="trailing" constant="10" id="Vbs-AQ-drC"/>
+                        <constraint firstItem="xZ7-ox-Xj1" firstAttribute="top" secondItem="pHc-ha-Yhm" secondAttribute="bottom" constant="10" id="e8h-ao-HyT"/>
+                        <constraint firstItem="pHc-ha-Yhm" firstAttribute="centerX" secondItem="8nz-mh-vOd" secondAttribute="centerX" id="hOF-gE-LMZ"/>
+                        <constraint firstAttribute="bottom" secondItem="xZ7-ox-Xj1" secondAttribute="bottom" constant="10" id="jGb-4Y-bhv"/>
+                        <constraint firstItem="xZ7-ox-Xj1" firstAttribute="leading" secondItem="8nz-mh-vOd" secondAttribute="leading" constant="10" id="mzJ-G0-Mzc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.39215686274509803" green="0.39215686274509803" blue="0.39215686274509803" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8nz-mh-vOd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3hR-7G-t0L"/>
+                <constraint firstItem="8nz-mh-vOd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" id="4hj-Dg-307"/>
+                <constraint firstItem="8nz-mh-vOd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" id="TeF-ZL-WXL"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8nz-mh-vOd" secondAttribute="trailing" id="Vte-gQ-jtB"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="8nz-mh-vOd" secondAttribute="bottom" id="jN6-JM-b8n"/>
+                <constraint firstItem="8nz-mh-vOd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lG7-Kw-4Dq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="animatable" destination="pHc-ha-Yhm" id="lrs-bG-Zyh"/>
+                <outlet property="contentView" destination="8nz-mh-vOd" id="lli-IC-h41"/>
+                <outlet property="errorLabel" destination="xZ7-ox-Xj1" id="Zcg-QJ-RHF"/>
+                <outlet property="loadingLabel" destination="xZ7-ox-Xj1" id="ZbT-Qo-Zjz"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,32 @@
+{
+    "identifier": "com.digipolitan.theme.default",
+    "scene": {
+        "backgroundColor": "#DDDDDD"
+    },
+    "body": {
+        "foregroundColor": "#FFFFFF",
+        "font": {
+            "name": "Helvetica",
+            "size": 12
+        }
+    },
+    "h1": {
+        "backgroundColor": "#000000",
+        "foregroundColor": "#FFFFFF",
+        "font": {
+            "name": "Helvetica",
+            "size": 30
+        },
+        "border": {
+            "color": "#000000",
+            "cornerRadius": 5,
+        }
+    },
+    "action": {
+        "foregroundColor": "#AAAAAA",
+        "font": {
+            "name": "Helvetica",
+            "size": 20
+        }
+    }
+}

@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  AppSwiftTemplate-tvOS
+
+  Created by Benoit BRIATTE on 09/10/2017.
+  Copyright © 2017 Digipolitan. All rights reserved.
+*/
+
+// Errors
+"errors.validator.required" = "Missing required field";
+"errors.validator.email" = "Invalid email";
+"errors.validator.min_length" = "At least %1$d characters";
+"errors.validator.max_length" = "Maximum %1$d characters";
+
+// LoaderView
+"loader.errors.service.unknown" = "An unknown error has occurred";
+"loader.errors.service.bad_request" = "Information entered is incorrect";
+"loader.errors.service.communication" = "A problem of communication has occurred";
+"loader.now_loading" = "Now loading...";
+
+// HomeViewController
+"home.title" = "Home";
+"home.login" = "Login";
+"home.logout" = "Logout";
+
+// LoginViewController
+"login.title" = "Login";
+"login.email" = "email";
+"login.email.placeholder" = "Email*";
+"login.first_name" = "firstName";
+"login.first_name.placeholder" = "FirstName";
+"login.last_name" = "lastName";
+"login.last_name.placeholder" = "LastName";
+"login.submit" = "Submit";

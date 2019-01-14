@@ -1,0 +1,9 @@
+line_length: 250
+file_length: 600
+excluded:
+  - Carthage
+  - Pods
+identifier_name:
+  min_length: 2
+disabled_rules:
+  - nesting

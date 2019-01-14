@@ -1,0 +1,7 @@
+{
+    "alamofire": {
+        "host": "http://localhost",
+        "log_level": 2,
+        "port": 3000
+    }
+}

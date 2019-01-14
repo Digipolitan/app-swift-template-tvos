@@ -1,0 +1,6 @@
+{
+    "alamofire": {
+        "host": "http://production",
+        "log_level": 0
+    }
+}

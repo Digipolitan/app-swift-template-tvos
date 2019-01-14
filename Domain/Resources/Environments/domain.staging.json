@@ -1,0 +1,6 @@
+{
+    "alamofire": {
+        "host": "http://staging",
+        "log_level": 0
+    }
+}
