@@ -1,4 +1,4 @@
-workspace 'AppSwiftTemplate-tvOS.xcworkspace'
+workspace 'AppSwiftTemplate_tvOS.xcworkspace'
 
 abstract_target 'Common' do
 	use_frameworks!
@@ -13,8 +13,8 @@ abstract_target 'Common' do
 		platform :tvos, '9.0'
 	end
 
-    target 'AppSwiftTemplate-tvOS' do
-        project 'AppSwiftTemplate-tvOS.xcodeproj'
+    target 'AppSwiftTemplate_tvOS' do
+        project 'AppSwiftTemplate_tvOS.xcodeproj'
         platform :tvos, '9.0'
 
         pod 'Monet'

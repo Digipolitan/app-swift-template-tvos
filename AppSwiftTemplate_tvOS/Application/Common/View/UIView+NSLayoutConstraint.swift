@@ -1,6 +1,6 @@
 //
 //  UIView+NSLayoutConstraint.swift
-//  AppSwiftTemplate-tvOS
+//  AppSwiftTemplate_tvOS
 //
 //  Created by Benoit BRIATTE on 03/11/2017.
 //  Copyright © 2017 Digipolitan. All rights reserved.

@@ -37,7 +37,7 @@
 			containerPortal = A3D1D44B21ED46D300FD41CB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A3D1D45221ED46D300FD41CB;
-			remoteInfo = "AppSwiftTemplate-tvOS";
+			remoteInfo = "AppSwiftTemplate_tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,17 +56,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D3BBA8C4743CE35571AEF17 /* Pods-Common-AppSwiftTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-AppSwiftTemplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Common-AppSwiftTemplate-tvOS/Pods-Common-AppSwiftTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		4BA431CC441F6C15DA2ECCB1 /* Pods-Common-AppSwiftTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-AppSwiftTemplate-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Common-AppSwiftTemplate-tvOS/Pods-Common-AppSwiftTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0D3BBA8C4743CE35571AEF17 /* Pods-Common-AppSwiftTemplate_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-AppSwiftTemplate_tvOS.release.xcconfig"; path = "Target Support Files/Pods-Common-AppSwiftTemplate_tvOS/Pods-Common-AppSwiftTemplate_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		4BA431CC441F6C15DA2ECCB1 /* Pods-Common-AppSwiftTemplate_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-AppSwiftTemplate_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Common-AppSwiftTemplate_tvOS/Pods-Common-AppSwiftTemplate_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		963EA7C1040F65D9FB69B2B2 /* Pods_Common_AppSwiftTemplate_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_AppSwiftTemplate_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33F1EEB21ED4CC100E222FC /* AppDefaultSplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppDefaultSplashViewController.xib; sourceTree = "<group>"; };
 		A33F1EED21ED4D6B00E222FC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		A33F1EEF21ED4ED300E222FC /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		A3802A8821ED500B005019A0 /* BasicLoaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicLoaderView.xib; sourceTree = "<group>"; };
-		A3D1D45321ED46D300FD41CB /* AppSwiftTemplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppSwiftTemplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D1D45321ED46D300FD41CB /* AppSwiftTemplate_tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppSwiftTemplate_tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D1D45621ED46D300FD41CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D1D45F21ED46D500FD41CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3D1D46421ED46D500FD41CB /* AppSwiftTemplate-tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppSwiftTemplate-tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D1D46421ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppSwiftTemplate_tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D1D46821ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSwiftTemplate_tvOSUITests.swift; sourceTree = "<group>"; };
 		A3D1D46A21ED46D500FD41CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D1D47321ED47EA00FD41CB /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,8 +117,8 @@
 		A3D1D44A21ED46D300FD41CB = {
 			isa = PBXGroup;
 			children = (
-				A3D1D45521ED46D300FD41CB /* AppSwiftTemplate-tvOS */,
-				A3D1D46721ED46D500FD41CB /* AppSwiftTemplate-tvOSUITests */,
+				A3D1D45521ED46D300FD41CB /* AppSwiftTemplate_tvOS */,
+				A3D1D46721ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests */,
 				A3D1D45421ED46D300FD41CB /* Products */,
 				D3FA711984BA005F30469BAB /* Pods */,
 				66F29F17F325477172A489CD /* Frameworks */,
@@ -128,13 +128,13 @@
 		A3D1D45421ED46D300FD41CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3D1D45321ED46D300FD41CB /* AppSwiftTemplate-tvOS.app */,
-				A3D1D46421ED46D500FD41CB /* AppSwiftTemplate-tvOSUITests.xctest */,
+				A3D1D45321ED46D300FD41CB /* AppSwiftTemplate_tvOS.app */,
+				A3D1D46421ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3D1D45521ED46D300FD41CB /* AppSwiftTemplate-tvOS */ = {
+		A3D1D45521ED46D300FD41CB /* AppSwiftTemplate_tvOS */ = {
 			isa = PBXGroup;
 			children = (
 				A3D1D4FA21ED4B4800FD41CB /* Application */,
@@ -142,16 +142,16 @@
 				A3D1D45621ED46D300FD41CB /* AppDelegate.swift */,
 				A3D1D45F21ED46D500FD41CB /* Info.plist */,
 			);
-			path = "AppSwiftTemplate-tvOS";
+			path = "AppSwiftTemplate_tvOS";
 			sourceTree = "<group>";
 		};
-		A3D1D46721ED46D500FD41CB /* AppSwiftTemplate-tvOSUITests */ = {
+		A3D1D46721ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A3D1D46821ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests.swift */,
 				A3D1D46A21ED46D500FD41CB /* Info.plist */,
 			);
-			path = "AppSwiftTemplate-tvOSUITests";
+			path = "AppSwiftTemplate_tvOSUITests";
 			sourceTree = "<group>";
 		};
 		A3D1D4F021ED4B4800FD41CB /* Resources */ = {
@@ -284,8 +284,8 @@
 		D3FA711984BA005F30469BAB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4BA431CC441F6C15DA2ECCB1 /* Pods-Common-AppSwiftTemplate-tvOS.debug.xcconfig */,
-				0D3BBA8C4743CE35571AEF17 /* Pods-Common-AppSwiftTemplate-tvOS.release.xcconfig */,
+				4BA431CC441F6C15DA2ECCB1 /* Pods-Common-AppSwiftTemplate_tvOS.debug.xcconfig */,
+				0D3BBA8C4743CE35571AEF17 /* Pods-Common-AppSwiftTemplate_tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -293,9 +293,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3D1D45221ED46D300FD41CB /* AppSwiftTemplate-tvOS */ = {
+		A3D1D45221ED46D300FD41CB /* AppSwiftTemplate_tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D1D46D21ED46D500FD41CB /* Build configuration list for PBXNativeTarget "AppSwiftTemplate-tvOS" */;
+			buildConfigurationList = A3D1D46D21ED46D500FD41CB /* Build configuration list for PBXNativeTarget "AppSwiftTemplate_tvOS" */;
 			buildPhases = (
 				2BAFC222F2E42CA858009D55 /* [CP] Check Pods Manifest.lock */,
 				A3D1D44F21ED46D300FD41CB /* Sources */,
@@ -309,14 +309,14 @@
 			);
 			dependencies = (
 			);
-			name = "AppSwiftTemplate-tvOS";
-			productName = "AppSwiftTemplate-tvOS";
-			productReference = A3D1D45321ED46D300FD41CB /* AppSwiftTemplate-tvOS.app */;
+			name = "AppSwiftTemplate_tvOS";
+			productName = "AppSwiftTemplate_tvOS";
+			productReference = A3D1D45321ED46D300FD41CB /* AppSwiftTemplate_tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A3D1D46321ED46D500FD41CB /* AppSwiftTemplate-tvOSUITests */ = {
+		A3D1D46321ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D1D47021ED46D500FD41CB /* Build configuration list for PBXNativeTarget "AppSwiftTemplate-tvOSUITests" */;
+			buildConfigurationList = A3D1D47021ED46D500FD41CB /* Build configuration list for PBXNativeTarget "AppSwiftTemplate_tvOSUITests" */;
 			buildPhases = (
 				A3D1D46021ED46D500FD41CB /* Sources */,
 				A3D1D46121ED46D500FD41CB /* Frameworks */,
@@ -327,9 +327,9 @@
 			dependencies = (
 				A3D1D46621ED46D500FD41CB /* PBXTargetDependency */,
 			);
-			name = "AppSwiftTemplate-tvOSUITests";
-			productName = "AppSwiftTemplate-tvOSUITests";
-			productReference = A3D1D46421ED46D500FD41CB /* AppSwiftTemplate-tvOSUITests.xctest */;
+			name = "AppSwiftTemplate_tvOSUITests";
+			productName = "AppSwiftTemplate_tvOSUITests";
+			productReference = A3D1D46421ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -351,7 +351,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A3D1D44E21ED46D300FD41CB /* Build configuration list for PBXProject "AppSwiftTemplate-tvOS" */;
+			buildConfigurationList = A3D1D44E21ED46D300FD41CB /* Build configuration list for PBXProject "AppSwiftTemplate_tvOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -364,8 +364,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3D1D45221ED46D300FD41CB /* AppSwiftTemplate-tvOS */,
-				A3D1D46321ED46D500FD41CB /* AppSwiftTemplate-tvOSUITests */,
+				A3D1D45221ED46D300FD41CB /* AppSwiftTemplate_tvOS */,
+				A3D1D46321ED46D500FD41CB /* AppSwiftTemplate_tvOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -413,7 +413,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Common-AppSwiftTemplate-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Common-AppSwiftTemplate_tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -428,7 +428,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Common-AppSwiftTemplate-tvOS/Pods-Common-AppSwiftTemplate-tvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Common-AppSwiftTemplate_tvOS/Pods-Common-AppSwiftTemplate_tvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireLogging/AlamofireLogging.framework",
 				"${BUILT_PRODUCTS_DIR}/DependencyInjector/DependencyInjector.framework",
@@ -461,7 +461,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Common-AppSwiftTemplate-tvOS/Pods-Common-AppSwiftTemplate-tvOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Common-AppSwiftTemplate_tvOS/Pods-Common-AppSwiftTemplate_tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A3D1D47721ED482700FD41CB /* Swiftlint */ = {
@@ -513,7 +513,7 @@
 /* Begin PBXTargetDependency section */
 		A3D1D46621ED46D500FD41CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A3D1D45221ED46D300FD41CB /* AppSwiftTemplate-tvOS */;
+			target = A3D1D45221ED46D300FD41CB /* AppSwiftTemplate_tvOS */;
 			targetProxy = A3D1D46521ED46D500FD41CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -646,18 +646,18 @@
 		};
 		A3D1D46E21ED46D500FD41CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA431CC441F6C15DA2ECCB1 /* Pods-Common-AppSwiftTemplate-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 4BA431CC441F6C15DA2ECCB1 /* Pods-Common-AppSwiftTemplate_tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 582762VK3P;
-				INFOPLIST_FILE = "AppSwiftTemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "AppSwiftTemplate_tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.AppSwiftTemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.AppSwiftTemplate_tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -666,18 +666,18 @@
 		};
 		A3D1D46F21ED46D500FD41CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D3BBA8C4743CE35571AEF17 /* Pods-Common-AppSwiftTemplate-tvOS.release.xcconfig */;
+			baseConfigurationReference = 0D3BBA8C4743CE35571AEF17 /* Pods-Common-AppSwiftTemplate_tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 582762VK3P;
-				INFOPLIST_FILE = "AppSwiftTemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "AppSwiftTemplate_tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.AppSwiftTemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.AppSwiftTemplate_tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,17 +690,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 582762VK3P;
-				INFOPLIST_FILE = "AppSwiftTemplate-tvOSUITests/Info.plist";
+				INFOPLIST_FILE = "AppSwiftTemplate_tvOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.AppSwiftTemplate-tvOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.AppSwiftTemplate_tvOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_TARGET_NAME = "AppSwiftTemplate-tvOS";
+				TEST_TARGET_NAME = "AppSwiftTemplate_tvOS";
 			};
 			name = Debug;
 		};
@@ -710,24 +710,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 582762VK3P;
-				INFOPLIST_FILE = "AppSwiftTemplate-tvOSUITests/Info.plist";
+				INFOPLIST_FILE = "AppSwiftTemplate_tvOSUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.AppSwiftTemplate-tvOSUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digipolitan.AppSwiftTemplate_tvOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
-				TEST_TARGET_NAME = "AppSwiftTemplate-tvOS";
+				TEST_TARGET_NAME = "AppSwiftTemplate_tvOS";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3D1D44E21ED46D300FD41CB /* Build configuration list for PBXProject "AppSwiftTemplate-tvOS" */ = {
+		A3D1D44E21ED46D300FD41CB /* Build configuration list for PBXProject "AppSwiftTemplate_tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D1D46B21ED46D500FD41CB /* Debug */,
@@ -736,7 +736,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3D1D46D21ED46D500FD41CB /* Build configuration list for PBXNativeTarget "AppSwiftTemplate-tvOS" */ = {
+		A3D1D46D21ED46D500FD41CB /* Build configuration list for PBXNativeTarget "AppSwiftTemplate_tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D1D46E21ED46D500FD41CB /* Debug */,
@@ -745,7 +745,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3D1D47021ED46D500FD41CB /* Build configuration list for PBXNativeTarget "AppSwiftTemplate-tvOSUITests" */ = {
+		A3D1D47021ED46D500FD41CB /* Build configuration list for PBXNativeTarget "AppSwiftTemplate_tvOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D1D47121ED46D500FD41CB /* Debug */,

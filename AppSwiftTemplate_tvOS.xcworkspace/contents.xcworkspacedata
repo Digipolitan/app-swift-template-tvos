@@ -5,7 +5,7 @@
       location = "group:Domain.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:AppSwiftTemplate-tvOS.xcodeproj">
+      location = "group:AppSwiftTemplate_tvOS.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

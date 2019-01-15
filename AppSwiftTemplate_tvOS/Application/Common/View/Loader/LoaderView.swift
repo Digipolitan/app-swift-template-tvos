@@ -1,6 +1,6 @@
 //
 //  Loader.swift
-//  AppSwiftTemplate-tvOS
+//  AppSwiftTemplate_tvOS
 //
 //  Created by Benoit BRIATTE on 08/11/2017.
 //  Copyright © 2017 Digipolitan. All rights reserved.
