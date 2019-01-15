@@ -1,6 +1,6 @@
 //
 //  AppSwiftTemplate_tvOSUITests.swift
-//  AppSwiftTemplate-tvOSUITests
+//  AppSwiftTemplate_tvOSUITests
 //
 //  Created by Benoit BRIATTE on 14/01/2019.
 //  Copyright © 2019 Digipolitan. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class AppSwiftTemplatetvOSUITests: XCTestCase {
+class AppSwiftTemplate_tvOSUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

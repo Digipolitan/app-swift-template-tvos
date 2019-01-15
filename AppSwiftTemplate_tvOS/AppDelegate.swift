@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AppSwiftTemplate-tvOS
+//  AppSwiftTemplate_tvOS
 //
 //  Created by Benoit BRIATTE on 14/01/2019.
 //  Copyright © 2019 Digipolitan. All rights reserved.
